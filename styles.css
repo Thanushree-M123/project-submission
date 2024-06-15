@@ -1,0 +1,273 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    height: auto;
+    width: 800px;
+    margin: 0 auto;
+    color: rgb(49, 37, 37);
+   
+}
+
+header {
+    
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 80px;
+ text-shadow: 10px yellow;
+    color:rgb(187, 19, 19);
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(152, 150, 36);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    color:whitesmoke;
+    font-family: 10px;
+    text-align: center;
+    padding: 50px 20px;
+    flex:1
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+.hero .btn {
+    background-color: #ff7f50;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.search-section {
+    margin-bottom:- 100px;
+    margin-top: -20px;
+    padding: 70px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.king {
+  
+    background-image: url("pro.jpg");
+    height:100% ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    
+}
+
+.profile-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.search-section h2, .profile-section h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+.form-group {
+    height: auto;
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .btn {
+    background-color: rgb(152, 150, 36);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.profile-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    margin:0 auto;
+    position: relative;
+   
+}
+.profile-card1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    text-align: left;
+    height: 459.8px;
+   max-width: 290px;
+    margin:0 auto;
+    position: relative;
+}
+.profile-card1 {
+    text-align: left;
+    width: 70%;
+}
+.profile-card .profile-details{
+    text-align: left;
+    width: 70%;
+}
+.profile-card1 img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+.profile-card img {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   display: block;
+   margin: 0 auto;
+
+}
+.profile-details p{
+    font-size: 16px;
+}
+
+.profile-card1 h3
+{
+    font-size: 25px;
+    margin: 10px 0;
+} 
+.profile-card h3 {
+    margin: 10px 0;
+}
+.arrow {
+    background-color:rgb(243, 106, 106);
+    border: none;
+    width: 25px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 0 20px;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow.left {
+   left: -60%;
+}
+
+.arrow.right {
+   right: -60%;
+}
+
+footer {
+   
+    color: rgb(152, 150, 36);
+    font-size: 15px;
+    text-size-adjust: auto;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    margin-bottom: -10px;
+    line-height: 2px ;
+  
+}
+
+.btn{
+   
+    background-color: #4dd751;
+    color: black;
+    border-radius: 10%;
+    border: 2px solid black;
+   
+    padding: 10px 0;
+    cursor: pointer;
+    width:90px;
+    height: 50px;
+    margin: auto;
+   font-size: 20px;
+    
+   
+}
+.im:hover{
+    border: 2px solid black;
+    transform: scale(2);
+}
+.line{
+    color: #d2430f;
+    
+}
